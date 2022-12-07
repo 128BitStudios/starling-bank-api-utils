@@ -1,0 +1,39 @@
+{
+  "name": "@128bitstudios/starling-bank-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e ts --watch src --exec \"npm run dev:build\"",
+    "dev:build": "hammer task devbuild",
+    "dev:publish": "hammer task publish",
+    "build": "hammer task build",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/128BitStudios/starling-bank-api-utils.git"
+  },
+  "author": "128bitstudios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/128BitStudios/starling-bank-api-utils/issues"
+  },
+  "homepage": "https://github.com/128BitStudios/starling-bank-api-utils#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.1",
+    "@sinclair/hammer": "^0.17.2",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.9.3"
+  }
+}

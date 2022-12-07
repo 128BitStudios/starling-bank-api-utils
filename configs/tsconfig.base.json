@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+  },
+  "files": ["../src/index.ts"]
+}
